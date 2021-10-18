@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 8%;
+    width: 90%;
+    background-color: rgb(79, 129, 129);
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2%;
+    margin: 2%;
+}
+.nav-item{
+    flex: 1;
+    justify-content: center;
+}
+.nav-item-2{
+    flex: 2;
+    justify-content: left;
+}
+.nav-item-3{
+    flex: 3;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.col-1{
+    flex: 1;
+    flex-direction: column;
+}
+.col-2{
+    flex: 2;
+    flex-direction: column;
+}
+
+.card{
+    border-style: solid;
+    border-width: 0.5%;
+    border-color: black;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    margin: 2%;
+}
+.addef{
+    border-style: solid;
+    border-width: 0.5%;
+    border-color: black;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+.just-center{
+    justify-content: center;
+    justify-items: center;
+}
+
+.align-center{
+    align-items: center;
+}
